@@ -6,8 +6,6 @@ OpenVPN installer for Debian, Ubuntu, Fedora, CentOS and Arch Linux.
 
 This script will let you setup your own secure VPN server in just a few seconds.
 
-You can also check out [wireguard-install](https://github.com/angristan/wireguard-install), a simple installer for a simpler, safer, faster and more modern VPN protocol.
-
 ## Usage
 
 First, get the script and make it executable :
@@ -82,7 +80,7 @@ The following Bash script adds a new user `foo` to an existing OpenVPN configura
 export MENU_OPTION="1"
 export CLIENT="foo"
 export PASS="1"
-./openvpn-install.sh
+./openvpn.sh
 ```
 
 ## Features
@@ -135,8 +133,6 @@ This script is based on the great work of [Nyr and its contributors](https://git
 Since 2016, the two scripts have diverged and are not alike anymore, especially under the hood. The main goal of the script was enhanced security. But since then, the script has been completely rewritten and a lot a features have been added. The script is only compatible with recent distributions though, so if you need to use a very old server or client, I advise using Nyr's script.
 
 ## FAQ
-
-**LOOK AT THE [WIKI](https://github.com/angristan/openvpn-install/wiki/FAQ) FOR MORE INFORMATION. PLEASE READ BOTH BEFORE OPENING AN ISSUE.**
 
 **PLEASE do net send me emails or private messages asking for help.** The only place to get help is the issues. Other people may be able to help and in the future, other users may also run into the same issue as you.
 
