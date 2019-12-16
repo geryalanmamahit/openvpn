@@ -195,7 +195,6 @@ private-address: ::ffff:0:0/96' > /etc/unbound/openvpn.conf
 
 function installQuestions () {
 	echo "Welcome to the OpenVPN installer!"
-	echo "The git repository is available at: https://github.com"
 	echo ""
 
 	echo "I need to ask you a few questions before starting the setup."
