@@ -1,6 +1,4 @@
-# openvpn-install
-nubie
-# openvpn-install
+# openvpn
 
 OpenVPN installer for Debian, Ubuntu, Fedora, CentOS and Arch Linux.
 
